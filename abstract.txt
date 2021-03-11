@@ -1,0 +1,13 @@
+abstract class Animal
+{
+public abstract void sound();
+}
+public class lion extends Animal{
+public void sound(){
+system.out.println("Roar");
+}
+public static void main(String args[]){
+Animal obj = new lion();
+obj.sound();
+}
+}

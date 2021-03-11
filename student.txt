@@ -1,0 +1,19 @@
+public class student{
+
+public static void main (string[] args){
+	person person =new person();
+	person.setname("Ram");
+	person.setlastname("Kumar");
+	person.setdept("EEE");
+
+	student student =new student();
+	student.setname("Prem");
+	student.setlastname("Kumar");
+	student.setdept("EEE");
+	
+	System.out.println("student name" +student.getname());
+	System.out.println("student lastname" +student.getlastname());
+	System.out.println("student dept" +student.getdept());
+	System.out.println("person name" +student.getname());
+	System.out.println("person lastname" +person.getlastname());
+	System.out.println("person dept" +person.getdept());
