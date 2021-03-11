@@ -17,3 +17,4 @@ public static void main (string[] args){
 	System.out.println("person name" +student.getname());
 	System.out.println("person lastname" +person.getlastname());
 	System.out.println("person dept" +person.getdept());
+	}
